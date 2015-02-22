@@ -1,0 +1,47 @@
+---
+title       : Expenditure by year App
+subtitle    : Visualizing Expenditure by Year
+author      : Achala Acharya
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Introduction 
+Have you ever wondered how much the US population spends on different categories such as food, health and education?
+
+Now you have an app that tells you how much was spent on Food and Tobacco, Household Operation, Medical and Health, Personal Care and Private Education Categories in a bar plot.
+
+
+---
+The data used for this app comes from the Datasets package in R. It is the USPersonal Expenditure dataset.
+
+The app lets you select the year and visualize the amount of dollars spend on Food and Tobacco, Household Operation, Medical and Health, Personal Care and Private Education Categories in a bar plot.
+
+This app makes it easier to compare how the expenditure across those categories compares for a given year.
+
+--- 
+
+Here is a summary of the dataset.
+
+```{r, echo = FALSE, results = 'asis'}
+summary(USPersonalExpenditure)
+```
+
+---.
+So please try out the app and check back later for an update that includes years past 1960.
+
+
+
+
+
+
+
+
+
+
+
